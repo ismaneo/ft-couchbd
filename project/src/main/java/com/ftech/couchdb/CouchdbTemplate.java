@@ -6,7 +6,6 @@ import org.apache.log4j.Logger;
 
 import net.sf.json.JSONObject;
 
-import com.ftech.commons.dao.CouchdbMapper;
 import com.ftech.couchdb.exception.CouchConfigurationException;
 import com.ftech.couchdb.exception.CouchException;
 import com.ftech.couchdb.helper.CouchdbJsonHelper;
@@ -15,6 +14,8 @@ import com.ftech.couchdb.models.DeclaredView;
 import com.ftech.couchdb.models.Document;
 import com.ftech.couchdb.models.View;
 import com.ftech.couchdb.models.ViewParameters;
+import com.ftech.couchdb.query.CouchdbMapper;
+import com.ftech.couchdb.query.CouchdbViewResults;
 
 
 public final class CouchdbTemplate implements CouchdbConstants {

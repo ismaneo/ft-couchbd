@@ -1,9 +1,9 @@
-package com.ftech.couchdb;
+package com.ftech.couchdb.query;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ftech.commons.dao.CouchdbMapper;
+import com.ftech.couchdb.CouchdbConstants;
 import com.ftech.couchdb.helper.CouchdbJsonHelper;
 
 import net.sf.json.JSONArray;
@@ -13,7 +13,7 @@ public final class CouchdbViewResults implements CouchdbConstants {
 	
 	private JSONObject response;
 	
-	protected CouchdbViewResults( JSONObject response ){
+	public CouchdbViewResults( JSONObject response ){
 		this.response = response;
 	}
 	

@@ -1,4 +1,4 @@
-package com.ftech.commons.dao;
+package com.ftech.couchdb.query;
 
 import net.sf.json.JSONObject;
 

@@ -4,6 +4,7 @@ import net.sf.json.JSONObject;
 
 import com.ftech.commons.model.EmptyDocument;
 import com.ftech.couchdb.CouchdbConstants;
+import com.ftech.couchdb.query.CouchdbMapper;
 
 public class EmptyDocumentMapper 
 implements CouchdbMapper<EmptyDocument>, CouchdbConstants {
